@@ -1,0 +1,27 @@
+{
+  "Toolbar": {
+    "LogoAlt": "Logo de Eventify",
+    "ISOCertified": "Certificación ISO 27001:2022",
+    "home": "Inicio",
+    "RatingCheck": "Puntaje "
+  },
+  "Home": {
+    "Title": "Inicio",
+    "Text": "Bienvenido a Eventify",
+    "TitleSection": "Eventos Registrados",
+    "RegisteredAttendees": "Asistentes Registrados",
+    "AverageRating": "Puntaje"
+  },
+  "Rating": {
+    "Title": "Calificación del Evento",
+    "AddRatingSection": "Agrega una Calificación para el Evento al que asististe",
+    "TicketIdentifierLabel": "Identificador del Ticket",
+    "RatingLabel": "Calificación",
+    "RateEventButton": "Calificar Evento"
+  },
+  "PageNotFound": {
+    "Title": "Página no encontrada",
+    "Description": "La ruta",
+    "GoHome": "Ir a Inicio"
+  }
+}
