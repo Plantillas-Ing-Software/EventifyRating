@@ -1,0 +1,242 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Apple WWDC",
+      "description": "Description 1",
+      "scheduledAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Google I/O",
+      "description": "Description 2",
+      "scheduledAt": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Microsoft Build",
+      "description": "Description 3",
+      "scheduledAt": "2024-10-03T00:00:00.000Z"
+    }
+  ],
+  "attendees": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "eventId": 1,
+      "ticketIdentifier": "TICKET-1",
+      "checkedInAt": null
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "eventId": 1,
+      "ticketIdentifier": "TICKET-2",
+      "checkedInAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "eventId": 2,
+      "ticketIdentifier": "TICKET-3",
+      "checkedInAt": null
+    },
+    {
+      "id": 4,
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "eventId": 2,
+      "ticketIdentifier": "TICKET-4",
+      "checkedInAt": null
+    },
+    {
+      "id": 5,
+      "firstName": "Charlie",
+      "lastName": "Brown",
+      "eventId": 3,
+      "ticketIdentifier": "TICKET-5",
+      "checkedInAt": "2024-10-03T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "firstName": "Daisy",
+      "lastName": "Brown",
+      "eventId": 3,
+      "ticketIdentifier": "TICKET-6",
+      "checkedInAt": null
+    },
+    {
+      "id": 7,
+      "firstName": "Eve",
+      "lastName": "Johnson",
+      "eventId": 3,
+      "ticketIdentifier": "TICKET-7",
+      "checkedInAt": null
+    },
+    {
+      "id": 8,
+      "firstName": "Frank",
+      "lastName": "Johnson",
+      "eventId": 3,
+      "ticketIdentifier": "TICKET-8",
+      "checkedInAt": "2024-10-03T00:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "firstName": "Grace",
+      "lastName": "Williams",
+      "eventId": 3,
+      "ticketIdentifier": "TICKET-9",
+      "checkedInAt": null
+    },
+    {
+      "id": 10,
+      "firstName": "Harry",
+      "lastName": "Williams",
+      "eventId": 1,
+      "ticketIdentifier": "TICKET-10",
+      "checkedInAt": null
+    },
+    {
+      "id": 11,
+      "firstName": "Ivy",
+      "lastName": "Brown",
+      "eventId": 2,
+      "ticketIdentifier": "TICKET-11",
+      "checkedInAt": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "firstName": "Jack",
+      "lastName": "Brown",
+      "eventId": 1,
+      "ticketIdentifier": "TICKET-12",
+      "checkedInAt": null
+    },
+    {
+      "id": 13,
+      "firstName": "Kelly",
+      "lastName": "Johnson",
+      "eventId": 1,
+      "ticketIdentifier": "TICKET-13",
+      "checkedInAt": null
+    },
+    {
+      "id": 14,
+      "firstName": "Liam",
+      "lastName": "Williams",
+      "eventId": 2,
+      "ticketIdentifier": "TICKET-14",
+      "checkedInAt": null
+    },
+    {
+      "id": 15,
+      "firstName": "Mia",
+      "lastName": "Brown",
+      "eventId": 3,
+      "ticketIdentifier": "TICKET-15",
+      "checkedInAt": null
+    },
+    {
+      "id": 16,
+      "firstName": "Noah",
+      "lastName": "Johnson",
+      "eventId": 1,
+      "ticketIdentifier": "TICKET-16",
+      "checkedInAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "firstName": "Olivia",
+      "lastName": "Williams",
+      "eventId": 2,
+      "ticketIdentifier": "TICKET-17",
+      "checkedInAt": null
+    },
+    {
+      "id": 18,
+      "firstName": "Peter",
+      "lastName": "Brown",
+      "eventId": 1,
+      "ticketIdentifier": "TICKET-18",
+      "checkedInAt": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "firstName": "Quinn",
+      "lastName": "Johnson",
+      "eventId": 3,
+      "ticketIdentifier": "TICKET-19",
+      "checkedInAt": "2024-10-02T00:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "firstName": "Rose",
+      "lastName": "Williams",
+      "eventId": 2,
+      "ticketIdentifier": "TICKET-20",
+      "checkedInAt": "2024-10-02T00:00:00.000Z"
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "attendeeId": 2,
+      "eventId": 1,
+      "rating": 5,
+      "ratedAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "attendeeId": 5,
+      "eventId": 3,
+      "rating": 4,
+      "ratedAt": "2024-10-03T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "attendeeId": 16,
+      "eventId": 1,
+      "rating": 3,
+      "ratedAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "attendeeId": 8,
+      "eventId": 3,
+      "rating": 3,
+      "ratedAt": "2024-10-03T20:59:01.500Z"
+    },
+    {
+      "id": 5,
+      "attendeeId": 20,
+      "eventId": 2,
+      "rating": 5,
+      "ratedAt": "2024-10-03T21:19:30.950Z"
+    },
+    {
+      "id": 6,
+      "attendeeId": 11,
+      "eventId": 2,
+      "rating": 4.5,
+      "ratedAt": "2024-10-03T21:32:25.376Z"
+    },
+    {
+      "id": 7,
+      "attendeeId": 19,
+      "eventId": 3,
+      "rating": 4,
+      "ratedAt": "2024-10-03T21:35:19.929Z"
+    },
+    {
+      "id": 8,
+      "attendeeId": 18,
+      "eventId": 1,
+      "rating": 5,
+      "ratedAt": "2024-10-03T21:36:06.595Z"
+    }
+  ]
+}
