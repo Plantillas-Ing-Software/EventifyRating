@@ -9,7 +9,7 @@
     "Title": "Home",
     "Text": "Welcome to Eventify",
     "TitleSection": "Registered Events",
-    "RegisteredAttendees": "Registered Attendees",
+    "RegisteredAttendees": "Checked-In Attendees",
     "AverageRating": "Rating"
   },
   "Rating": {
