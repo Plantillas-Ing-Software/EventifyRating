@@ -72,4 +72,30 @@ The user interface should use one of Angular Material's pre-built themes: azure-
 
 The client's IT team will evaluate not only the fulfillment of the functional characteristics but also the user interface design, project structure, adherence to naming conventions for programming objects in English, Angular naming conventions, code organization, and efficiency. Design patterns application will also be considered. Accessibility (use of ARIA attributes) and usability will be taken into account.
 
-The project organization should be domain-driven, applying layered architecture, considering the sub-domains public (for general UI elements or components such as home), shared (for base elements or those used in other sub-domains), registration (for components or elements related to events, such as events or attendees), and engagement (for components or elements related to ratings, such as Event Rating). Apply best practices for the logical and physical naming of classes and components. Properly distribute elements within each sub-domain folder, considering folders like pages, components, services, model. Only components directly related to navigation routes should be located in pages. Components that are included in others and not directly associated with navigation routes should be placed in components. Apply best practices for the logical and physical naming of classes and components. Comment on the TypeScript source code files created by you using JSDoc conventions (see references), with block comments including a summary text explaining the purpose and an @author with your name.
+The team requires that the user interface be based on `Angular Material`, while communication with the backend should be based on `HttpClient` (included in @angular/common/http). The application
+should support `in-app navigation` and use `@angular/router` for routing handling in the application. If required, use `DatePipe` in templates for date formats (see references section). You should include `ARIA attributes` in views. The user interface should `display English text by default`. You should use `@ngx-translate/core` for i18n implementation. The application project should be able to open without problems in `JetBrains WebStorm`. The project organization must be `domain-driven`, applying layered architecture.
+
+The project organization should be domain-driven, applying layered architecture, considering the sub-domains `public` (for general UI elements or components such as home), `shared` (for base elements or those used in other sub-domains), `registration` (for components or elements related to events, such as events or attendees), and `engagement` (for components or elements related to ratings, such as Event Rating). 
+
+Apply good practices for logical and physical naming of classes and components. Distribute the elements appropriately within each subdomain folder, considering folders such as `pages, components, services, model`. Only components that have a direct relationship with navigation paths are located in pages. Components are located in components that are included in others and are not directly associated with navigation paths. Apply good practices for logical and physical naming of classes and components. Comment your own `TypeScript` source code files using `JSDoc` conventions (see references), with block comments including a summary text with the purpose and `@author with your first and last name`. Include in the `README.md` file, the application information, description and your information as author.
+
+## Technical restrictions
+
+Name your project `upc2402si729eaucode` where code is your student code in lowercase (e.g. `upc2402si729eau201621873`). Build your project using the current release version of Angular v18. All components in your project must be stand-alone components.
+
+Before generating the .zip file (the only valid format) for submission, delete the node_modules folder. The name of the .zip file must follow the structure `upc-pre-202402-si729-<section>-
+ea-u<student-code>.zip` (for example, `upc-pre-202402-si729-wx59-ea-u201621873.zip`).
+
+## References
+
+Course materials
+- https://angular.dev/guide/routing/common-router-tasks
+- https://angular.dev/guide/routing/router-reference
+- https://angular.dev/guide/routing/router-tutorial#adding-a-404-page
+- https://angular.dev/guide/http
+- https://angular.dev/guide/templates/pipes
+- https://angular.dev/api/common/DatePipe
+- https://material.angular.io/components/grid-list/overview
+- https://material.angular.io/components/card/overview https://material.angular.io/components/card/overview#accessibility https://material.angular.io/components/toolbar/overview
+- https://material.angular.io/components/toolbar/overview#accessibility https://github.com/typicode/json-server/tree/v0 https://www.w3.org/TR/wai-aria/#usage https://github.com/ngx-translate/core
+- https://jsdoc.app/
