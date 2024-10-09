@@ -1,0 +1,26 @@
+<div class="rating">
+    <h1>{{ 'Rating.Title' | translate }}</h1>
+    <section>
+      <h2>{{ 'Rating.AddRatingSection' | translate }}</h2>
+      <form (ngSubmit)="submitRating()" #ratingForm="ngForm">
+  
+        <!-- Ticket Identifier -->
+        <mat-form-field>
+          <mat-label>{{ 'Rating.TicketIdentifierLabel' | translate }}</mat-label>
+          <input matInput type="text" [(ngModel)]="ticketIdentifier" name="ticketIdentifier" required>
+        </mat-form-field>
+  
+        <!-- Rating -->
+        <mat-form-field>
+          <mat-label>{{ 'Rating.RatingLabel' | translate }}</mat-label>
+          <input matInput type="number" [(ngModel)]="rating" name="rating" min="1" max="5" required>
+        </mat-form-field>
+  
+        <button mat-raised-button color="primary" type="submit" [disabled]="ratingForm.invalid">
+          {{ 'Rating.RateEventButton' | translate }}
+        </button>
+      </form>
+  
+      <p *ngIf="message">{{ message }}</p>
+    </section>
+</div>
