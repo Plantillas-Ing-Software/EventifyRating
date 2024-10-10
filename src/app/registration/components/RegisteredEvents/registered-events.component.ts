@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {AttendeeService} from '../../services/attendee.service';
-import {RatingService} from '../../services/rating.service';
+import { RatingService } from '../../../engagement/services/rating.service';
 import {Attendee} from '../../model/attendee.entity';
-import {Rating} from '../../model/rating.entity';
+import { Rating } from '../../../engagement/model/rating.entity';
 import {MatFormField, MatLabel} from '@angular/material/form-field';
 import {TranslateModule} from '@ngx-translate/core';
 import {FormsModule} from '@angular/forms';
